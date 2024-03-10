@@ -17,9 +17,10 @@ window.onload = () => {
     }
   };
 
-  // hide accordionContent on load
-  hideContent();
-
   // EVENT LISTENERS
   accordionHeading.addEventListener("click", clickAccordionHeading);
+
+  // ON LOAD
+  // hide accordionContent on load
+  hideContent();
 };
