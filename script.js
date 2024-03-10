@@ -1,5 +1,6 @@
 window.onload = () => {
   // VARIABLES
+  const accordionUnit = document.querySelector(".accordion-unit");
   const accordionHeading = document.querySelector(".accordion-container");
   const accordionContent = document.querySelector(".accordion-content");
 
@@ -9,7 +10,7 @@ window.onload = () => {
     accordionContent.classList.add("hideElement");
   };
 
-  const clickAccordionHeading = () => {
+  const clickAccordionUnit = () => {
     if (accordionContent.classList.contains("hideElement")) {
       accordionContent.classList.remove("hideElement");
     } else {
@@ -18,7 +19,7 @@ window.onload = () => {
   };
 
   // EVENT LISTENERS
-  accordionHeading.addEventListener("click", clickAccordionHeading);
+  accordionUnit.addEventListener("click", clickAccordionUnit);
 
   // ON LOAD
   // hide accordionContent on load
