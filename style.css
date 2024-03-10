@@ -2,6 +2,12 @@
     display: none;
 }
 
+.accordion-unit {
+    color: #fff;
+    background: rgb(21, 69, 107);
+    padding: 0.5em 3em;
+}
+
 .accordion-unit:hover {
     cursor: pointer;
 }
