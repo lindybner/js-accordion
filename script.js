@@ -13,4 +13,9 @@ window.onload = () => {
   hideContent();
 
   // EVENT LISTENERS
+  accordionHeading.addEventListener("click", () => {
+    if (accordionContent.classList.contains("hideElement")) {
+      accordionContent.classList.remove("hideElement");
+    }
+  });
 };
