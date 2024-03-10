@@ -9,15 +9,17 @@ window.onload = () => {
     accordionContent.classList.add("hideElement");
   };
 
-  // hide accordionContent on load
-  hideContent();
-
-  // EVENT LISTENERS
-  accordionHeading.addEventListener("click", () => {
+  const clickAccordionHeading = () => {
     if (accordionContent.classList.contains("hideElement")) {
       accordionContent.classList.remove("hideElement");
     } else {
       accordionContent.classList.add("hideElement");
     }
-  });
+  };
+
+  // hide accordionContent on load
+  hideContent();
+
+  // EVENT LISTENERS
+  accordionHeading.addEventListener("click", clickAccordionHeading);
 };
