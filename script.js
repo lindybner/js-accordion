@@ -1,1 +1,4 @@
-window.onload = () => {};
+window.onload = () => {
+  // VARIABLES
+  const accordionHeading;
+};
