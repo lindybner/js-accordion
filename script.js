@@ -1,7 +1,6 @@
 window.onload = () => {
   // VARIABLES
   const accordionUnit = document.querySelector(".accordion-unit");
-  const accordionHeading = document.querySelector(".accordion-container");
   const accordionContent = document.querySelector(".accordion-content");
 
   // FUNCTIONS
