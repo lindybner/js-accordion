@@ -9,5 +9,6 @@ window.onload = () => {
     accordionContent.classList.add("hideElement");
   };
 
+  // hide accordionContent on load
   hideContent();
 };
