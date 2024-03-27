@@ -4,7 +4,7 @@ window.onload = () => {
   const accordionContent = document.querySelector(".accordion-content");
 
   // FUNCTIONS
-  // hide accordionContent on load
+  // hide accordionContent (on load)
   const hideContent = () => {
     accordionContent.classList.add("hideElement");
   };
